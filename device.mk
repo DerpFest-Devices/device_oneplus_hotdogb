@@ -37,7 +37,8 @@ PRODUCT_COPY_FILES += \
 
 # Notch hide
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # Vibrator
 PRODUCT_PACKAGES += \
