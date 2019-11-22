@@ -7,16 +7,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
+$(call inherit-product, vendor/oneplus/hotdogb/hotdogb-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosip
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/frameworks/base/packages/SystemUI \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
+    $(LOCAL_PATH)/overlay-lineage/frameworks/base/packages/SystemUI
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -39,7 +38,7 @@ PRODUCT_PACKAGES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.display.hotdog.rc
+    init.display.hotdogb.rc
 
 # fastbootd
 PRODUCT_PACKAGES += \
