@@ -27,9 +27,12 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
+<<<<<<< HEAD:overlay-derp/frameworks/base/core/res/res/values/config.xml
 
     <!-- OnePlus uses a proprietary vibrator hal to utilize the new powerful motor since the
          OnePlus 7 Pro. This HAL expects a different format for the data instead of the usual (ms)
          timing(the duration which the vibrator is expected to vibrate for). -->
     <bool name="config_hasOnePlusHapticMotor">true</bool>
+=======
+>>>>>>> 539b322... hotdogb: overlay: Increase number of notification icons allowed:overlay-aosip/frameworks/base/core/res/res/values/config.xml
 </resources>
