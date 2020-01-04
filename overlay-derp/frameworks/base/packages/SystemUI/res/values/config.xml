@@ -23,8 +23,13 @@
     <!-- Color of the FOD view -->
     <color name="config_fodColor">#ccccac</color>
 
+<<<<<<< HEAD:overlay-derp/frameworks/base/packages/SystemUI/res/values/config.xml
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
 
+=======
+    <!-- Allow device to use unordinary cutout overlays -->
+    <bool name="config_customCutout">true</bool>
+>>>>>>> cfdb244... hotdogb: overlay: Set custom corner rounding shape:overlay-aosip/frameworks/base/packages/SystemUI/res/values/config.xml
 </resources>
