@@ -21,7 +21,7 @@
      for different hardware and product builds. -->
 <resources>
     <!-- Color of the FOD view -->
-    <color name="config_fodColor">#ccccac</color>
+    <color name="config_fodColor">#808080</color>
 
     <!-- Allow device to use unordinary cutout overlays -->
     <bool name="config_customCutout">true</bool>
