@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "OnePlus7TWifiOverlay",
+    sdk_version: "current",
+    product_specific: true
+}
