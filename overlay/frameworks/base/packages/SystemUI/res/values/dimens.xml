@@ -40,4 +40,11 @@
     <dimen name="tri_state_up_dialog_position_l">410.0px</dimen>
     <dimen name="tri_state_up_dialog_position_deep">21.0px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
+
+    <!-- Location on the screen of the center of the physical power button. -->
+    <dimen name="physical_power_button_center_screen_location_y">876px</dimen>
+
+    <!-- Location on the screen of the center of the physical volume up/down buttons. -->
+    <dimen name="physical_volume_up_button_center_screen_location_y">710px</dimen>
+    <dimen name="physical_volume_down_button_center_screen_location_y">910px</dimen>
 </resources>
