@@ -15,12 +15,6 @@
     limitations under the License.
 -->
 <resources>
-    <!-- Custom cutout overlay view sizes -->
-    <dimen name="config_customCutoutTopWidth">218.0px</dimen>
-    <dimen name="config_customCutoutTopHeight">218.0px</dimen>
-    <dimen name="config_customCutoutBottomWidth">540.0px</dimen>
-    <dimen name="config_customCutoutBottomHeight">211.0px</dimen>
-
     <!-- Battery percentage position in AOD -->
     <dimen name="keyguard_indication_margin_bottom">20dp</dimen>
 </resources>
