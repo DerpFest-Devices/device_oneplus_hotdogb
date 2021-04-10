@@ -36,7 +36,6 @@
          backlight values for lux levels between these control points.
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
         <item>4</item>
         <item>12</item>
         <item>20</item>
@@ -94,7 +93,6 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.0487</item>
         <item>4.8394</item>
         <item>15.2619</item>
         <item>33</item>
@@ -149,7 +147,6 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>0.0</item>
         <item>5.0958</item>
         <item>13.278</item>
         <item>20.367</item>
@@ -220,7 +217,6 @@
          values in the config_screenBrightnessNits array.
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
         <item>4</item>
         <item>8</item>
         <item>12</item>
@@ -346,11 +342,9 @@
     -->
     <fraction name="config_maximumScreenDimRatio">25%</fraction>
 
-    <!-- Minimum screen brightness setting allowed by power manager.
-         -2 is invalid so setting will resort to int value specified above.
-         Set this to 0.0 to allow screen to go to minimal brightness.
+    <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.001954079</item>
+    <integer name="config_screenBrightnessSettingMinimum">4</integer>
 
     <!-- Maximum screen brightness allowed by the power manager.
          -2 is invalid so setting will resort to int value specified above.
