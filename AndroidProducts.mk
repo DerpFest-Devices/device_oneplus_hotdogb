@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_hotdog.mk
+    $(LOCAL_DIR)/derp_hotdogb.mk
