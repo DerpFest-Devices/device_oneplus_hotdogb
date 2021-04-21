@@ -13,10 +13,7 @@ $(call inherit-product, vendor/oneplus/hotdogb/hotdogb-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-<<<<<<< HEAD
     $(LOCAL_PATH)/overlay-derp
-=======
-    $(LOCAL_PATH)/overlay-aosip
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -24,7 +21,6 @@ AB_OTA_PARTITIONS += \
     product \
     recovery \
     vbmeta_system
->>>>>>> 4922286... hotdogb: Include SystemUI overlays in RRO
 
 # Audio
 PRODUCT_COPY_FILES += \
