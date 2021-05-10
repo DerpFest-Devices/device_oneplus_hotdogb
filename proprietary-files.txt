@@ -215,17 +215,12 @@ vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
-# Vibrator HAL
-vendor/lib/hw/vibrator.default.so
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-
 # Vibrator Firmware
 vendor/firmware/aw8697_haptic_166.bin
 vendor/firmware/aw8697_haptic_168.bin
 vendor/firmware/aw8697_haptic_170.bin
 vendor/firmware/aw8697_haptic_172.bin
 vendor/firmware/aw8697_haptic_174.bin
+
+# Vibrator HAL - from hotdogb-user-10-QKQ1.190716.003-2101212100-release-keys
+vendor/lib64/hw/vibrator.default.so|9c9744e702424f1709148a0ba61a238e0f37e37e
