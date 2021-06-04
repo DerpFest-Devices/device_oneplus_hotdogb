@@ -226,3 +226,10 @@ vendor/lib64/hw/vibrator.default.so
 vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
 vendor/etc/init/android.hardware.vibrator@1.0-service.rc
 vendor/bin/hw/android.hardware.vibrator@1.0-service
+
+# Vibrator Firmware
+vendor/firmware/aw8697_haptic_166.bin
+vendor/firmware/aw8697_haptic_168.bin
+vendor/firmware/aw8697_haptic_170.bin
+vendor/firmware/aw8697_haptic_172.bin
+vendor/firmware/aw8697_haptic_174.bin
