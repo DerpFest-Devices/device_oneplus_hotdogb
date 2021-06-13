@@ -25,6 +25,9 @@ DERP_BUILDTYPE := Official
 #FOD Animations
 EXTRA_FOD_ANIMATIONS := true
 
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_hotdogb
 PRODUCT_DEVICE := hotdogb
