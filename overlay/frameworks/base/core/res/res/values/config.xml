@@ -353,13 +353,11 @@
     -->
     <fraction name="config_maximumScreenDimRatio">25%</fraction>
 
-    <!-- Minimum screen brightness setting allowed by the power manager.
+    <!-- Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.001077</item>
 
-    <!-- Maximum screen brightness allowed by the power manager.
-         -2 is invalid so setting will resort to int value specified above.
-         Set this to 1.0 for maximum brightness range.
+    <!-- Set this to 1.0 for maximum brightness range.
          The user is forbidden from setting the brightness above this level. -->
     <item name="config_screenBrightnessSettingMaximumFloat" format="float" type="dimen">1.0</item>
 
