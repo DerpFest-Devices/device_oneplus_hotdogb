@@ -4,7 +4,7 @@
     "target_path": "device/oneplus/sm8150-common"
   },
   {
-    "repository"  : "RealJohnGalt/GaltsGulch-sm8150",
+    "repository"  : "matt0301/android_kernel_oneplus_sm8150",
     "target_path" : "kernel/oneplus/sm8150",
     "branch":"gulch_r",
     "remote":"github"
