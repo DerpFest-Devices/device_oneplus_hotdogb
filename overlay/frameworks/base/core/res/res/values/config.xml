@@ -260,4 +260,19 @@
          0: Left side
          1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
+
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+     <integer-array name="config_udfps_sensor_props" translatable="false" >
+      <!--
+        <item>sensorLocationX</item>
+        <item>sensorLocationY</item>
+        <item>sensorRadius</item>
+      -->
+        <item>541</item>
+        <item>2156</item>
+        <item>104</item>
+     </integer-array>
+
+     <!-- How long it takes for the HW to start illuminating after the illuminati -->
+     <integer name="config_udfps_illumination_transition_ms">0</integer>
 </resources>
