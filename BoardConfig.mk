@@ -39,6 +39,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Compression
+PRODUCT_FS_COMPRESSION := 1
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
