@@ -17,18 +17,9 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Setup Derp options
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SHIPS_OOSCAM := true
-TARGET_SHIPS_OOSGALLERY := true
 
 # Official-ify
 DERP_BUILDTYPE := Official
-
-#FOD Animations
-EXTRA_FOD_ANIMATIONS := true
-
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_hotdogb
