@@ -274,7 +274,7 @@
      </integer-array>
 
      <!-- How long it takes for the HW to start illuminating after the illuminati -->
-     <integer name="config_udfps_illumination_transition_ms">0</integer>
+     <integer name="config_udfps_illumination_transition_ms">10</integer>
 
      <!-- The default refresh rate -->
      <integer name="config_defaultRefreshRate">0</integer>
