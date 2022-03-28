@@ -47,4 +47,6 @@
     <!-- Location on the screen of the center of the physical volume up/down buttons. -->
     <dimen name="physical_volume_up_button_center_screen_location_y">710px</dimen>
     <dimen name="physical_volume_down_button_center_screen_location_y">910px</dimen>
+
+    <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 </resources>
