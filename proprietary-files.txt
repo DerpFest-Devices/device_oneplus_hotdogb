@@ -1,6 +1,6 @@
-# All unpinned blobs below are extracted from OnePlus7TOxygen_14.O.34_OTA_0340_all_2205261947_8fd8619ac9dd6f
+#  All unpinned blobs below are extracted from OnePlus7TOxygen_14.O.34_OTA_0340_all_2205261947_8fd8619ac9dd6f
 
-# ACDB
+#ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/MTP/EU/acdb_version
 vendor/etc/acdbdata/MTP/EU/MTP_Bluetooth_cal.acdb
@@ -28,14 +28,14 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
-vendor/etc/camera/ashdr/iso617_4608x3456.ncf
+vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
 vendor/etc/camera/ashdr/ncf_pack.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx519.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx371.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx471.ncf
-vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
-vendor/etc/camera/ashdr/ncf_pack_imx519.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx586.ncf
-vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
+vendor/etc/camera/ashdr/iso617_4608x3456.ncf
 vendor/etc/camera/arccali.bin
 vendor/etc/camera/attribute.model
 vendor/etc/camera/calibrationOutput_uw.bin
@@ -127,9 +127,7 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
-
-# Dolby
-odm/etc/dolby/dax-default.xml
+vendor/lib64/hw/com.qti.chi.override.so
 
 # Fingerprint
 vendor/lib64/hw/goodix.fod.msmnile.so
@@ -137,7 +135,6 @@ vendor/lib64/fp_hal_extension.so
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # ODM feature list
 odm/etc/odm_feature_list
