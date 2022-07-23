@@ -1,4 +1,4 @@
-#  All unpinned blobs below are extracted from OnePlus7TOxygen_14.O.34_OTA_0340_all_2205261947_8fd8619ac9dd6f
+#  All unpinned blobs below are extracted from OnePlus7T_qssi-user 11 RKQ1.201022.002 2206241702 release-keys 
 
 #ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
