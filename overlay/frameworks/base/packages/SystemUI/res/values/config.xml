@@ -31,4 +31,8 @@
 
     <!-- Color of the UDFPS pressed view -->
     <color name="config_udfpsColor">#00ffffff</color>
+
+     <!-- Preferred refresh rate at keyguard, if supported by the display -->
+     <integer name="config_keyguardRefreshRate">90</integer>
+
 </resources>
