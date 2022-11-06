@@ -291,4 +291,6 @@
      <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
      <integer name="config_defaultRefreshRateInZone">90</integer>
 
+     <!-- Whether show refresh rate QS tile -->
+     <bool name="config_showRefreshRateQsTile">true</bool>
 </resources>
