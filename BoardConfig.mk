@@ -22,7 +22,7 @@ AB_OTA_PARTITIONS += \
 TARGET_SCREEN_DENSITY := 420
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/derp/config/BoardConfigReservedSize.mk
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 100663296
